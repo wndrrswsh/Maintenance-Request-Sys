@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <div class="container-fluid">
+      <div class="container d-none d-md-block">
+        <img src="image/maintenance-tools.png" class="overlay" />
+      </div>
+
+      <div class="row">
+        <!-- Left side column -->
+        <div class="col-sm-12 col-md-4 d-none d-md-block">
+          <p class="get-started pt-4 px-3 text-white">Get Started with us</p>
+          <p class="enter-data px-3 text-white">
+            Enter your data to Sign in your account.
+          </p>
+        </div>
+        <!-- Sign In Card -->
+        <div class="col-sm-12 col-md-8 white-bg p-4">
+          <!-- Desktop -->
+          <div class="signin-content-desktop d-none d-md-block">
+            <!-- Subtitle -->
+            <p class="signin-sub">Maintenance Portal Login</p>
+            <p class="signin-title">Sign In your Account</p>
+            <!-- Email n Pass -->
+            <form action="">
+              <!-- Email -->
+              <div class="input-box pt-4">
+                <input type="text" id="email" placeholder=" " required />
+                <label for="email">Email</label>
+              </div>
+
+              <!-- Password -->
+              <div class="input-box pt-4">
+                <input type="password" id="password" placeholder=" " required />
+                <label for="email">Password</label>
+              </div>
+            </form>
+
+            <!-- Forgot Password -->
+            <p class="forgot-pass pt-3">Forgot Password?</p>
+            <!-- Sign In Button -->
+            <button class="sign-in-btn">Sign In</button>
+            <!-- Sign Up -->
+            <p class="no-acc pt-3">
+              Don’t have an account ? <span class="sign-up">Sign up</span>
+            </p>
+          </div>
+
+          <!-- Mobile -->
+          <div class="signin-content-mobile d-md-none">
+            <div>
+              <img src="image/logo.png" class="logo d-md-none py-4" alt="" />
+            </div>
+            <p class="signin-sub">Maintenance Portal Login</p>
+            <p class="signin-title">Sign In your Account</p>
+            <form action="">
+              <div class="input-box pt-4">
+                <input type="text" id="email" placeholder=" " required />
+                <label for="email">Email</label>
+              </div>
+              <!-- Password -->
+              <div class="input-box pt-4">
+                <input type="password" id="password" placeholder=" " required />
+                <label for="email">Password</label>
+              </div>
+              <!-- Forgot Password -->
+              <p class="forgot-pass pt-3">Forgot Password?</p>
+              <!-- Sign In Button -->
+              <button class="sign-in-btn">Sign In</button>
+              <!-- Sign Up -->
+              <p class="no-acc pt-3">
+                Don’t have an account ? <span class="sign-up">Sign up</span>
+              </p>
+            </form>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer-container d-none d-md-block">
+          <div class="blue-overlay"></div>
+        </div>
+
+        <div class="footer-container d-none d-md-block">
+          <div class="blue-overlay-fill"></div>
+        </div>
+
+        <div class="footer-container d-none d-md-block">
+          <div class="blue-overlay-outline"></div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
